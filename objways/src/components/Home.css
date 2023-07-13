@@ -1,0 +1,57 @@
+.search-bar {
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  @media (min-width: 576px) {
+    .search-bar {
+      max-width: 300px;
+    }
+  }
+  
+  .product-card {
+    width: 300px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  @media (min-width: 576px) {
+    .product-card {
+      max-width: 250px;
+    }
+  }
+  
+  .price-value {
+    color: green;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  .product-card .btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .not-available {
+    color: red;
+    font-weight: bold;
+  }
+  
